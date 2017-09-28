@@ -1,28 +1,56 @@
-.App {
-  text-align: center;
+/* Layout & General Stuff */
+div{
+  display: flex;
+  width: 100%;
+}
+#root{
+  background: black;
+  min-height: 100vh;
+  justify-content: center;
+  flex: 1;
+}
+@media only screen and (max-width: 768px) {
+    #app-container {
+        with: 100%;
+    }
+}
+#app-container{
+  width: 768px;
+  flex-flow: column wrap;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+/* Typography */
+#root{
+  font-family: 'Nunito', sans-serif;
   color: white;
 }
-
-.App-title {
-  font-size: 1.5em;
+.font-logo{
+  font-size: 24px;
+}
+.font-heading{
+  font-size: 18px;
 }
 
-.App-intro {
-  font-size: large;
+
+/* Header */
+#header{
+  height: 48px;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+/* Body/Layout/Common */
+
+.list{
+  flex-flow: column wrap;
+}
+
+
+/* Event */
+.event{
+  flex-flow: column wrap;
+}
+.event-img img{
+  width: 100%;
+  height: 100%;
 }
