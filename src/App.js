@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Event from './Event'
+import List from './List';
 import './App.css';
 
 class App extends Component {
@@ -7,17 +7,10 @@ class App extends Component {
     return (
       <div id="app-container">
         <div id="header">
-          <div className="font-logo">#Greet</div>
+          <div className="font-x-large">#Greet</div>
         </div>
         <div id="body">
-          <div className="list">
-            <div className="item">
-              <Event data="1" />
-            </div>
-            <div className="item">
-              <Event data="2" />
-            </div>
-          </div>
+          <List />
         </div>
       </div>
     );
