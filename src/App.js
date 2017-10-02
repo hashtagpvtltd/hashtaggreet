@@ -20,7 +20,7 @@ class App extends Component {
             Grasps in the comer."
           </div>
           <br/>
-          <div className="font-heading"><a href="https://hashhello.typeform.com/to/lrL7KZ">#StayInTouch</a></div>
+          <div className="font-heading"><a href="https://hashhello.typeform.com/to/lrL7KZ"><u>#StayInTouch</u></a></div>
         </div>
       </div>
     );

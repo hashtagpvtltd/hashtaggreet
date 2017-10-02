@@ -11,7 +11,7 @@ class List extends Component {
     return (
         <div className="list">
             <div className="list-header">
-                <div className="font-x-large">Events in&nbsp;<u>#India</u> </div>
+                <div className="font-x-large">Events in #India </div>
             </div>
             <div className="list-body">
                 {rows}
