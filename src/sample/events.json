@@ -1,20 +1,32 @@
 [
     {
         "hashtag": "#IndieComixFest",
-        "location": "YWCA, Colaba",
+        "location": "YWCA, Mumbai",
         "date": "Oct 2",
-        "img": "https://s3.ap-south-1.amazonaws.com/greet-assets/%23IndieComixFest.png"
+        "img": "https://s3.ap-south-1.amazonaws.com/greet-assets/%23IndieComixFest.jpg"
+    },
+    {
+        "hashtag": "#HalfBreed",
+        "location": "Jagriti Theatre, Bangalore",
+        "date": "Oct 4 - Oct 8",
+        "img": "https://s3.ap-south-1.amazonaws.com/greet-assets/%23HalfBreed.jpg"
     },
     {
         "hashtag": "#KhwaabSa",
-        "location": "Prithvi Theatre, Juhu",
+        "location": "Prithvi Theatre, Mumbai",
         "date": "Oct 3 - Oct 8",
-        "img": "https://s3.ap-south-1.amazonaws.com/greet-assets/%23KhwaabSa.png"
+        "img": "https://s3.ap-south-1.amazonaws.com/greet-assets/%23KhwaabSa.jpg"
     },
     {
         "hashtag": "#PiyaBehrupiya",
-        "location": "Prithvi Theatre, Juhu",
+        "location": "Prithvi Theatre, Mumbai",
         "date": "Oct 7 - Oct 8",
         "img": "https://s3.ap-south-1.amazonaws.com/greet-assets/%23PiyaBehrupiya.jpg"
+    },
+    {
+        "hashtag": "#Yayati",
+        "location": "Jagriti Theatre, Bangalore",
+        "date": "Oct 13 - Oct 15",
+        "img": "https://s3.ap-south-1.amazonaws.com/greet-assets/%23Yayati.jpg"
     }
 ]

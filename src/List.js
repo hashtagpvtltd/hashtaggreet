@@ -6,7 +6,7 @@ class List extends Component {
   render() {
     var rows = [];
     for (var i=0; i < events.length; i++) {
-        rows.push(<Event data={events[i]} />);
+        rows.push(<Event data={events[i]} key={i} />);
     }
     return (
         <div className="list">
