@@ -14,12 +14,8 @@ class App extends Component {
         </div>
         <div id="footer">
           <div className="font-sub-heading">
-            "Time is like a fashionable host<br/>
-            That slightly shakes his parting guest by the hand,<br/>
-            And with his arm outstretch'd, as he would fly,<br/>
-            Grasps in the comer."
+            we publish a monthly newsletter
           </div>
-          <br/>
           <div className="font-heading"><a href="https://hashhello.typeform.com/to/lrL7KZ"><u>#StayInTouch</u></a></div>
         </div>
       </div>
