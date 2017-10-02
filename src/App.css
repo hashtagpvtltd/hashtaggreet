@@ -4,7 +4,7 @@ div{
   width: 100%;
 }
 #root{
-  background: black;
+  background: #191919;
   min-height: 100vh;
   justify-content: center;
   flex: 1;
@@ -24,6 +24,7 @@ div{
 #root{
   font-family: 'Nunito', sans-serif;
   color: white;
+  font-size: 13px;
 }
 .font-x-large{
   font-size: 24px;
@@ -37,6 +38,18 @@ div{
 }
 .font-bold{
   font-weight: 600;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+a:hover{
+  text-decoration: underline;
 }
 
 
@@ -56,10 +69,23 @@ div{
 }
 
 
+/* Footer */
+#footer{
+  border-top: 1px solid #353535;
+  margin: 18px 0px;
+  padding: 12px 0px;
+  flex-flow: column wrap;
+}
+#footer div{
+  justify-content: center;
+  text-align: center;
+}
+
+
 /* Event */
 .event{
   flex-flow: column wrap;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
 .event-img img{
   width: 100%;
