@@ -2,10 +2,18 @@ import React, { Component } from 'react';
 
 class Event extends Component {
   render() {
+    let media = null;
+    if(this.props.data.mediaIsVideo){
+        media = <video autoplay="autoplay" loop="loop" ><source src={this.props.data.media} type="video/mp4" /></video>;
+    }
+    else{
+        media =  <img src={this.props.data.media} alt="event's name" />;
+    }
+
     return (
         <div className="event">
-            <div className="event-img">
-                <img src={this.props.data.img} alt="event's name" />
+            <div className="event-media">
+                {media}
             </div>
             <div className="event-content">
                 <div className="font-heading">

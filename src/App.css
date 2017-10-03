@@ -87,10 +87,11 @@ a:hover{
   flex-flow: column wrap;
   margin-bottom: 24px;
 }
-.event-img img{
+.event-media img, .event-media video{
   width: 100%;
   height: 100%;
 }
 .event-content{
   flex-flow: column wrap;
 }
+

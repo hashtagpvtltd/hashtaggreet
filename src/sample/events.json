@@ -3,35 +3,43 @@
         "hashtag": "#HalfBreed",
         "location": "Jagriti Theatre, Bangalore",
         "date": "Oct 4 - Oct 8",
-        "img": "https://s3.ap-south-1.amazonaws.com/greet-assets/%23HalfBreed.jpg",
+        "media": "https://s3.ap-south-1.amazonaws.com/greet-assets/%23HalfBreed.jpg",
         "link": "https://in.bookmyshow.com/plays/soho-theatre-and-talawa-theatre-company-present-half-breed/ET00062170"
     },
     {
         "hashtag": "#KhwaabSa",
         "location": "Prithvi Theatre, Mumbai",
         "date": "Oct 3 - Oct 8",
-        "img": "https://s3.ap-south-1.amazonaws.com/greet-assets/%23KhwaabSa.jpg",
+        "media": "https://s3.ap-south-1.amazonaws.com/greet-assets/%23KhwaabSa.jpg",
         "link": "https://in.bookmyshow.com/plays/the-company-theatres-khwaab-sa/ET00062190"
     },
     {
         "hashtag": "#PiyaBehrupiya",
         "location": "Prithvi Theatre, Mumbai",
         "date": "Oct 7 - Oct 8",
-        "img": "https://s3.ap-south-1.amazonaws.com/greet-assets/%23PiyaBehrupiya.jpg",
+        "media": "https://s3.ap-south-1.amazonaws.com/greet-assets/%23PiyaBehrupiya.jpg",
         "link": "https://in.bookmyshow.com/plays/the-company-theatres-piya-behrupiya/ET00016692"
     },
     {
         "hashtag": "#FlyByNight",
-        "location": "The Stein Auditorium, Delhi",
+        "location": "India Habitat Center, Delhi",
         "date": "Oct 8",
-        "img": "https://s3.ap-south-1.amazonaws.com/greet-assets/%23FlyByNight.jpg",
+        "media": "https://s3.ap-south-1.amazonaws.com/greet-assets/%23FlyByNight.jpg",
         "link": "https://in.bookmyshow.com/plays/fly-by-night/ET00062036"
     },
     {
         "hashtag": "#Yayati",
         "location": "Jagriti Theatre, Bangalore",
         "date": "Oct 13 - Oct 15",
-        "img": "https://s3.ap-south-1.amazonaws.com/greet-assets/%23Yayati.jpg",
+        "media": "https://s3.ap-south-1.amazonaws.com/greet-assets/%23Yayati.jpg",
         "link": "https://in.bookmyshow.com/plays/yayati-by-girish-karnad/ET00058549"
+    },
+    {
+        "hashtag": "#SpokenFest",
+        "location": "Jio Garden, Mumbai",
+        "date": "Oct 28 - Oct 29",
+        "mediaIsVideo": true,
+        "media": "https://s3.ap-south-1.amazonaws.com/greet-assets/%23SpokenFest.mp4",
+        "link": "http://spokenfest.com/"
     }
 ]
