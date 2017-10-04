@@ -6,7 +6,12 @@ import config from './config';
 class App extends Component {
 
   componentWillMount(){
-    localStorage.setItem('apiRoot', config.apiRoot);
+    if(config.DEBUG){
+      localStorage.setItem('apiRoot', config.localApiRoot);
+    }
+    else{
+      localStorage.setItem('apiRoot', config.apiRoot);
+    }
   }
 
   render() {
