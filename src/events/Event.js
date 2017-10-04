@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 class Event extends Component {
 
     handleOutboundLink = (url) => {
-        debugger
         window.ga('send', 'event', {
             eventCategory: 'Outbound Link',
             eventAction: 'click',
-            eventLabel: url
+            eventLabel: url,
+            transport: 'beacon'
         });
     }
 

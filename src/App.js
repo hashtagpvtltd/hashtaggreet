@@ -14,11 +14,19 @@ class App extends Component {
     }
   }
 
+  handleTestEvent = () => {
+    window.ga('send', 'event', {
+        eventCategory: 'Test',
+        eventAction: 'click',
+        eventLabel: 'heading'
+    });
+  }
+
   render() {
     return (
       <div id="app-container">
         <div id="header">
-          <div className="font-x-large">#Greet</div>
+          <div className="font-x-large" onClick={()=> this.handleTestEvent()}>#Greet</div>
         </div>
         <div id="body">
           <List />
