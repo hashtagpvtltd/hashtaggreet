@@ -7,7 +7,7 @@ import {
 import registerServiceWorker from './registerServiceWorker';
 
 import App from './App';
-import './index.css';
+
 
 class Routes extends React.Component{
   render() {

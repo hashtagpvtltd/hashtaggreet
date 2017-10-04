@@ -4,7 +4,7 @@ class Event extends Component {
   render() {
     let media = null;
     if(this.props.data.mediaIsVideo){
-        media = <video autoplay="autoplay" loop="loop" ><source src={this.props.data.media} type="video/mp4" /></video>;
+        media = <video autoPlay loop><source src={this.props.data.media} type="video/mp4" /></video>;
     }
     else{
         media =  <img src={this.props.data.media} alt="event's name" />;

@@ -2,6 +2,8 @@ const express = require('express');
 const morgan = require('morgan');
 const path = require('path');
 const app = express()
+var cors = require('cors')
+app.use(cors())
 
 // Logger
 app.use(morgan(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] :response-time ms'));
@@ -10,7 +12,7 @@ app.use(morgan(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:htt
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Serves REST API
-const apiRouter = require('./src/api/routes');
+const apiRouter = require('./src/apiRoutes');
 app.use('/api', apiRouter);
 
 // Serves React's build

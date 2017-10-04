@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
-import List from './List';
+import List from './general/List';
 import './App.css';
+import config from './config';
 
 class App extends Component {
+
+  componentWillMount(){
+    localStorage.setItem('apiRoot', config.apiRoot);
+  }
+
   render() {
     return (
       <div id="app-container">
