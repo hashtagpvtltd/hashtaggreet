@@ -13,7 +13,10 @@ class Routes extends React.Component{
   render() {
     return (
       <Router>
-          <Route exact path="/" component={App}/>
+        <div class="app-container">
+          <Route exact path="/" component={() => (<App type="events" />)} />
+          <Route exact path="/stories" component={() => (<App type="stories" />)} />
+        </div>
       </Router>
     );
   }
