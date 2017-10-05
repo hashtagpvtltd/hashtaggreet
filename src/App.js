@@ -32,20 +32,24 @@ class App extends Component {
       board = <Stories />;
     }
     return (
-      <div class="app-container">
-        <div id="header">
-          <div className="font-x-large" onClick={()=> this.handleTestEvent()}>#Greet</div>
-        </div>
-        <div id="body">
-          {board}
-        </div>
-        <div id="footer">
-          <div className="font-sub-heading">
-            we publish a monthly newsletter
+        <div class="app-container">
+
+          <div id="header">
+            <div className="font-x-large" onClick={()=> this.handleTestEvent()}>#Greet</div>
           </div>
-          <div className="font-heading"><a href="https://hashhello.typeform.com/to/lrL7KZ"><u>#StayInTouch</u></a></div>
+
+          <div id="body">
+            {board}
+          </div>
+
+          <div id="footer">
+            <div className="font-sub-heading">
+              we publish a monthly newsletter
+            </div>
+            <div className="font-heading"><a href="https://hashhello.typeform.com/to/lrL7KZ"><u>#StayInTouch</u></a></div>
+          </div>
+
         </div>
-      </div>
     );
   }
 }

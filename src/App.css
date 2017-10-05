@@ -7,20 +7,19 @@ div{
   display: flex;
   width: 100%;
 }
-#root{
-
-}
-@media only screen and (max-width: 384px) {
-    #app-container {
-        with: 100%;
-    }
-}
 .pseudo-root{
   background: #191919;
   min-height: 100vh;
   justify-content: center;
   align-items: center;
   flex: 1;
+}
+
+@media only screen and (max-width: 384px) {
+    .app-container {
+        with: 100%;
+        padding: 0px 12px;
+    }
 }
 .app-container{
   width: 384px;
@@ -93,7 +92,10 @@ a:hover{
 /* Event */
 .event{
   flex-flow: column wrap;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
+}
+.event-media{
+  margin-bottom: 8px;
 }
 .event-media img, .event-media video{
   width: 100%;
