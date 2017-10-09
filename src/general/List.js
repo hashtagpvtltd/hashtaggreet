@@ -29,7 +29,9 @@ class List extends Component {
         var rows = [];
         var events = this.state.events;
         for (var i=0; i < events.length; i++) {
-            rows.push(<Event data={events[i]} key={i} />);
+            if(events[i].isArchived === undefined){
+                rows.push(<Event data={events[i]} key={i} />);
+            }
         }
 
         return (

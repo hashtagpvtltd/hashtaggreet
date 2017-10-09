@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import List from './general/List';
-import Stories from './general/Stories';
 import './App.css';
 import config from './config';
 
@@ -24,27 +23,20 @@ class App extends Component {
   }
 
   render() {
-    var board = null;
-    if(this.props.type === "events"){
-      board = <List />;
-    }
-    else if(this.props.type === "stories"){
-      board = <Stories />;
-    }
     return (
-        <div class="app-container">
+        <div className="app-container">
 
           <div id="header">
             <div className="font-x-large" onClick={()=> this.handleTestEvent()}>#Greet</div>
           </div>
 
           <div id="body">
-            {board}
+            <List />
           </div>
 
           <div id="footer">
             <div className="font-sub-heading">
-              we publish a monthly newsletter
+              we publish a monthly calendar
             </div>
             <div className="font-heading"><a href="https://hashhello.typeform.com/to/lrL7KZ"><u>#StayInTouch</u></a></div>
           </div>
