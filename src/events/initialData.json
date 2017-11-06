@@ -44,14 +44,16 @@
         "location": "Jagriti Theatre, Bangalore",
         "date": "Oct 13 - Oct 15",
         "media": "https://s3.ap-south-1.amazonaws.com/greet-assets/%23Yayati.jpg",
-        "link": "https://in.bookmyshow.com/plays/yayati-by-girish-karnad/ET00058549"
+        "link": "https://in.bookmyshow.com/plays/yayati-by-girish-karnad/ET00058549",
+        "isArchived": true
     },
     {
         "hashtag": "#TheFlame",
         "location": "Jagriti Theatre, Bangalore",
         "date": "Oct 27 - Oct 29",
         "media": "https://s3.ap-south-1.amazonaws.com/greet-assets/%23TheFlame.jpg",
-        "link": "https://in.bookmyshow.com/plays/the-flame/ET00062026"
+        "link": "https://in.bookmyshow.com/plays/the-flame/ET00062026",
+        "isArchived": true
     },
     {
         "hashtag": "#SpokenFest",
@@ -59,7 +61,8 @@
         "date": "Oct 28 - Oct 29",
         "mediaIsVideo": true,
         "media": "https://s3.ap-south-1.amazonaws.com/greet-assets/%23SpokenFest.mp4",
-        "link": "http://spokenfest.com/"
+        "link": "http://spokenfest.com/",
+        "isArchived": true
     },
     {
         "hashtag": "#RabbitHole",
